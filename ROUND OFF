@@ -1,0 +1,17 @@
+round off hackerrank
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+float x;
+    scanf("%f",&x);
+    int y=(int)x;
+    printf("%d",y);
+    printf("\n%.1f",ceil(x));
+    printf("\n%.1f",floor(x));
+    
+    return 0;
+}
