@@ -1,0 +1,24 @@
+DEBT REPAY HACKERRANK
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    float interest=(a*b*c)/100;
+    printf("%.2f\n",interest);
+    float amt=a+interest;
+    printf("%.2f\n",amt);
+    float discount=(interest)*2/100;
+    printf("%.2f\n",discount);
+    float final=amt-discount;
+    printf("%.2f\n",final);
+    
+    
+
+   
+    return 0;
+}
