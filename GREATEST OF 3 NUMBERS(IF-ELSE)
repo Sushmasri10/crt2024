@@ -1,0 +1,19 @@
+GREATEST OF 3 NUMBERS(IF-ELSE)
+
+#include <stdio.h>
+int main() {
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if((a>b)&&(a>c)){
+        printf("A is GREATEST:%d",a);
+        }
+        else
+        if(b>c){
+            printf("B is GREATEST:%d",b);
+        }
+        else
+        {
+            printf("C is GREATEST:%d",c);
+        }
+    return 0;
+}
