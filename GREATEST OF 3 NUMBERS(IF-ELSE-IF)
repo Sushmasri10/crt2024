@@ -1,4 +1,4 @@
-GREATEST OF 3 NUMBERS(IF-ELSE)
+GREATEST OF 3 NUMBERS(IF-ELSE-IF)
 
 #include <stdio.h>
 int main() {
