@@ -1,0 +1,23 @@
+SUM OF PRODUCTS HACKERRANK
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int sum=a+b;
+    int prod=a*b;
+    if(prod>1000)
+    {
+        printf("%d",sum);
+    }else
+    {
+        printf("%d",prod);
+    }
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+
